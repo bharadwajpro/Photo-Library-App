@@ -1,0 +1,42 @@
+/*.btn-xlarge {
+    padding: 40px 28px;
+    font-size: 60px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}*/
+
+.gif_loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('https://res.cloudinary.com/dcynwcimw/image/upload/v1472751014/dhbsdjzsgjhgzdsuyhgvjdzjkdsghfv/squares.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#pic_frame {
+	padding-top: 25px;
+	padding-right: 10%;
+	padding-bottom: 100px;
+	padding-left: 10%;
+}
